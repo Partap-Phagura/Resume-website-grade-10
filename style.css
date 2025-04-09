@@ -1,7 +1,13 @@
 html {
     margin: 150px;
+    font-family: Georgia;
+    position: fixed;
 }
 
 .one {
     padding-right: 200px;
+}
+
+h1, h2{
+    text-align: center;
 }
