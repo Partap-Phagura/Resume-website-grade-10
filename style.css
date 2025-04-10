@@ -9,6 +9,8 @@ html {
 
 .one {
     padding-right: 200px;
+    width: auto;
+    border 5px
 }
 
 h1, h2 {
