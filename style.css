@@ -1,24 +1,22 @@
 html {
-    /*overflow: scroll;*/
     margin: 150px;
+    position:fixed;
     font-family: Georgia;
-    position:absolute;
-}
-
-/*body {
     position: absolute;
-}*/
+    overflow-y: scroll;
+    max-width: fit-content;
+}
 
 .one {
     padding-right: 200px;
 }
 
-h1, h2{
+h1, h2 {
     text-align: center;
 }
 
-.scrollable-container {
-    /*width: 200px; /* Or any desired width */
-    /*height: 100px; /* Or any desired height */
-    /*overflow-y: scroll; /* Or 'auto' or 'hidden' */
-  }
+/*.scrollable-container {
+    width: 200px; /* Or any desired width
+    height: 100px; /* Or any desired height
+    overflow: scroll; /* Or 'auto' or 'hidden'
+}*/
