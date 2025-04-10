@@ -1,8 +1,12 @@
 html {
+    /*overflow: scroll;*/
     margin: 150px;
     font-family: Georgia;
-    position: fixed;
 }
+
+/*body {
+    position: absolute;
+}*/
 
 .one {
     padding-right: 200px;
@@ -11,3 +15,9 @@ html {
 h1, h2{
     text-align: center;
 }
+
+.scrollable-container {
+    /*width: 200px; /* Or any desired width */
+    /*height: 100px; /* Or any desired height */
+    /*overflow-y: scroll; /* Or 'auto' or 'hidden' */
+  }
