@@ -10,15 +10,18 @@ html {
 .one {
     padding-right: 200px;
     width: auto;
-    border 5px
+    border: 5px;
 }
 
 h1, h2 {
     text-align: center;
 }
 
-/*.scrollable-container {
-    width: 200px; /* Or any desired width
-    height: 100px; /* Or any desired height
-    overflow: scroll; /* Or 'auto' or 'hidden'
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-resume-color-hexagon-background-h5-background-material-image_139314.jpg");
+    background-color: #cccccc;
+   }
+
+/*body {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-resume-color-hexagon-background-h5-background-material-image_139314.jpg);
 }*/
