@@ -2,6 +2,7 @@ html {
     margin: 150px;
     position:fixed;
     font-family: Georgia;
+    color: #181717;
     position: absolute;
     overflow-y: scroll;
     max-width: fit-content;
