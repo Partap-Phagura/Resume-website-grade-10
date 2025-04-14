@@ -5,7 +5,6 @@ html {
     position: absolute;
     overflow-y: scroll;
     max-width: fit-content;
-    background-color: #cccccc
 }
 
 .one {
@@ -19,5 +18,5 @@ h1, h2 {
 }
 
 body {
-    background-img: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-my-resume-background-material-image_177383.jpg);
+    background-color: #cccccc;
 }
