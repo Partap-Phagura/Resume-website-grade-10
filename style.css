@@ -9,9 +9,48 @@ html {
 }
 
 .one {
-    padding-right: 200px;
-    width: auto;
-    border: 5px;
+    margin: 0 auto;
+    padding: 2em;
+    width: 300px;
+    background: rgb(94, 92, 92);
+    position: relative;   
+    border-radius: 10px;
+    text-align: center;
+}
+
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.one::after, .card::before{
+    content: '';
+    --angle: 0deg;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle) 0deg, transparent 70%, blue);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 10px;
+    animation: 3s spin linear infinite;
+}
+.card::before{
+    filter: blur(1.5em)
+    opacity: 0.5;
+}
+
+@keyframes spin{
+    from{
+        --angle: 0deg;
+    }
+    to{
+        --angle: 360deg;
+    }
 }
 
 h1, h2 {
